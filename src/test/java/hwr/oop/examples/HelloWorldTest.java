@@ -16,5 +16,4 @@ class HelloWorldTest {
         String output = helloWorld.getOutputString();
         Assertions.assertThat(output).isEqualTo("Hello World");
     }
-
 }
